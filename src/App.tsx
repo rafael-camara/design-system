@@ -1,7 +1,7 @@
-import './styles/global.css'
+import { SignIn } from "./pages/SignIn";
+
+import "./styles/global.css";
 
 export function App() {
-  return (
-    <h1 className='font-bold text-2xl text-gray-800'>Hello World</h1>
-  );
+  return <SignIn />;
 }
